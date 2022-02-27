@@ -1,0 +1,371 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BAD_REQUEST	http/http_conn.h	/^        BAD_REQUEST,$/;"	e	enum:http_conn::HTTP_CODE
+BLOCK_QUEUE_H	log/block_queue.h	7;"	d
+CC	test_presure/webbench-1.5/Makefile	/^CC?=		gcc$/;"	m
+CFLAGS	test_presure/webbench-1.5/Makefile	/^CFLAGS?=	-Wall -ggdb -W -O$/;"	m
+CHECK_STATE	http/http_conn.h	/^    enum CHECK_STATE$/;"	g	class:http_conn
+CHECK_STATE_CONTENT	http/http_conn.h	/^        CHECK_STATE_CONTENT$/;"	e	enum:http_conn::CHECK_STATE
+CHECK_STATE_HEADER	http/http_conn.h	/^        CHECK_STATE_HEADER,$/;"	e	enum:http_conn::CHECK_STATE
+CHECK_STATE_REQUESTLINE	http/http_conn.h	/^        CHECK_STATE_REQUESTLINE = 0,$/;"	e	enum:http_conn::CHECK_STATE
+CLOSED_CONNECTION	http/http_conn.h	/^        CLOSED_CONNECTION$/;"	e	enum:http_conn::HTTP_CODE
+CONFIG_H	config.h	2;"	d
+CONNECT	http/http_conn.h	/^        CONNECT,$/;"	e	enum:http_conn::METHOD
+CONNTrigmode	config.h	/^    int CONNTrigmode;$/;"	m	class:Config
+CXX	makefile	/^CXX ?= g++$/;"	m
+Config	config.cpp	/^Config::Config(){$/;"	f	class:Config
+Config	config.h	/^class Config$/;"	c
+DEBUG	makefile	/^DEBUG ?= 1$/;"	m
+DELETE	http/http_conn.h	/^        DELETE,$/;"	e	enum:http_conn::METHOD
+DH_COMPAT	test_presure/webbench-1.5/debian/rules	/^export DH_COMPAT=3$/;"	m
+DestroyPool	CGImysql/sql_connection_pool.cpp	/^void connection_pool::DestroyPool()$/;"	f	class:connection_pool
+FILENAME_LEN	http/http_conn.h	/^    static const int FILENAME_LEN = 200;$/;"	m	class:http_conn
+FILE_REQUEST	http/http_conn.h	/^        FILE_REQUEST,$/;"	e	enum:http_conn::HTTP_CODE
+FORBIDDEN_REQUEST	http/http_conn.h	/^        FORBIDDEN_REQUEST,$/;"	e	enum:http_conn::HTTP_CODE
+GET	http/http_conn.h	/^        GET = 0,$/;"	e	enum:http_conn::METHOD
+GET_REQUEST	http/http_conn.h	/^        GET_REQUEST,$/;"	e	enum:http_conn::HTTP_CODE
+GetConnection	CGImysql/sql_connection_pool.cpp	/^MYSQL *connection_pool::GetConnection()$/;"	f	class:connection_pool
+GetFreeConn	CGImysql/sql_connection_pool.cpp	/^int connection_pool::GetFreeConn()$/;"	f	class:connection_pool
+GetInstance	CGImysql/sql_connection_pool.cpp	/^connection_pool *connection_pool::GetInstance()$/;"	f	class:connection_pool
+HEAD	http/http_conn.h	/^        HEAD,$/;"	e	enum:http_conn::METHOD
+HTTPCONNECTION_H	http/http_conn.h	2;"	d
+HTTP_CODE	http/http_conn.h	/^    enum HTTP_CODE$/;"	g	class:http_conn
+INTERNAL_ERROR	http/http_conn.h	/^        INTERNAL_ERROR,$/;"	e	enum:http_conn::HTTP_CODE
+LDFLAGS	test_presure/webbench-1.5/Makefile	/^LDFLAGS?=$/;"	m
+LIBS	test_presure/webbench-1.5/Makefile	/^LIBS?=$/;"	m
+LINE_BAD	http/http_conn.h	/^        LINE_BAD,$/;"	e	enum:http_conn::LINE_STATUS
+LINE_OK	http/http_conn.h	/^        LINE_OK = 0,$/;"	e	enum:http_conn::LINE_STATUS
+LINE_OPEN	http/http_conn.h	/^        LINE_OPEN$/;"	e	enum:http_conn::LINE_STATUS
+LINE_STATUS	http/http_conn.h	/^    enum LINE_STATUS$/;"	g	class:http_conn
+LISTENTrigmode	config.h	/^    int LISTENTrigmode;$/;"	m	class:Config
+LOCKER_H	lock/locker.h	2;"	d
+LOGWrite	config.h	/^    int LOGWrite;$/;"	m	class:Config
+LOG_DEBUG	log/log.h	64;"	d
+LOG_ERROR	log/log.h	67;"	d
+LOG_H	log/log.h	2;"	d
+LOG_INFO	log/log.h	65;"	d
+LOG_WARN	log/log.h	66;"	d
+LST_TIMER	timer/lst_timer.h	2;"	d
+Log	log/log.cpp	/^Log::Log()$/;"	f	class:Log
+Log	log/log.h	/^class Log$/;"	c
+MAX_EVENT_NUMBER	webserver.h	/^const int MAX_EVENT_NUMBER = 10000; \/\/最大事件数$/;"	v
+MAX_FD	webserver.h	/^const int MAX_FD = 65536;           \/\/最大文件描述符$/;"	v
+METHOD	http/http_conn.h	/^    enum METHOD$/;"	g	class:http_conn
+METHOD_GET	test_presure/webbench-1.5/webbench.c	35;"	d	file:
+METHOD_HEAD	test_presure/webbench-1.5/webbench.c	36;"	d	file:
+METHOD_OPTIONS	test_presure/webbench-1.5/webbench.c	37;"	d	file:
+METHOD_TRACE	test_presure/webbench-1.5/webbench.c	38;"	d	file:
+NO_REQUEST	http/http_conn.h	/^        NO_REQUEST,$/;"	e	enum:http_conn::HTTP_CODE
+NO_RESOURCE	http/http_conn.h	/^        NO_RESOURCE,$/;"	e	enum:http_conn::HTTP_CODE
+OPTIONS	http/http_conn.h	/^        OPTIONS,$/;"	e	enum:http_conn::METHOD
+OPT_LINGER	config.h	/^    int OPT_LINGER;$/;"	m	class:Config
+PATH	http/http_conn.h	/^        PATH$/;"	e	enum:http_conn::METHOD
+PORT	config.h	/^    int PORT;$/;"	m	class:Config
+POST	http/http_conn.h	/^        POST,$/;"	e	enum:http_conn::METHOD
+PREFIX	test_presure/webbench-1.5/Makefile	/^PREFIX?=	\/usr\/local$/;"	m
+PROGRAM_VERSION	test_presure/webbench-1.5/webbench.c	39;"	d	file:
+PUT	http/http_conn.h	/^        PUT,$/;"	e	enum:http_conn::METHOD
+READ_BUFFER_SIZE	http/http_conn.h	/^    static const int READ_BUFFER_SIZE = 2048;$/;"	m	class:http_conn
+REQUEST_SIZE	test_presure/webbench-1.5/webbench.c	50;"	d	file:
+ReleaseConnection	CGImysql/sql_connection_pool.cpp	/^bool connection_pool::ReleaseConnection(MYSQL *con)$/;"	f	class:connection_pool
+Socket	test_presure/webbench-1.5/socket.c	/^int Socket(const char *host, int clientPort)$/;"	f
+THREADPOOL_H	threadpool/threadpool.h	2;"	d
+TIMESLOT	webserver.h	/^const int TIMESLOT = 5;             \/\/最小超时单位$/;"	v
+TMPDIR	test_presure/webbench-1.5/Makefile	/^TMPDIR=\/tmp\/webbench-$(VERSION)$/;"	m
+TRACE	http/http_conn.h	/^        TRACE,$/;"	e	enum:http_conn::METHOD
+TRIGMode	config.h	/^    int TRIGMode;$/;"	m	class:Config
+Utils	timer/lst_timer.h	/^    Utils() {}$/;"	f	class:Utils
+Utils	timer/lst_timer.h	/^class Utils$/;"	c
+VERSION	test_presure/webbench-1.5/Makefile	/^VERSION=1.5$/;"	m
+WEBSERVER_H	webserver.h	2;"	d
+WRITE_BUFFER_SIZE	http/http_conn.h	/^    static const int WRITE_BUFFER_SIZE = 1024;$/;"	m	class:http_conn
+WebServer	webserver.cpp	/^WebServer::WebServer()$/;"	f	class:WebServer
+WebServer	webserver.h	/^class WebServer$/;"	c
+_CONNECTION_POOL_	CGImysql/sql_connection_pool.h	2;"	d
+actor_model	config.h	/^    int actor_model;$/;"	m	class:Config
+add_blank_line	http/http_conn.cpp	/^bool http_conn::add_blank_line()$/;"	f	class:http_conn
+add_content	http/http_conn.cpp	/^bool http_conn::add_content(const char *content)$/;"	f	class:http_conn
+add_content_length	http/http_conn.cpp	/^bool http_conn::add_content_length(int content_len)$/;"	f	class:http_conn
+add_content_type	http/http_conn.cpp	/^bool http_conn::add_content_type()$/;"	f	class:http_conn
+add_headers	http/http_conn.cpp	/^bool http_conn::add_headers(int content_len)$/;"	f	class:http_conn
+add_linger	http/http_conn.cpp	/^bool http_conn::add_linger()$/;"	f	class:http_conn
+add_response	http/http_conn.cpp	/^bool http_conn::add_response(const char *format, ...)$/;"	f	class:http_conn
+add_status_line	http/http_conn.cpp	/^bool http_conn::add_status_line(int status, const char *title)$/;"	f	class:http_conn
+add_timer	timer/lst_timer.cpp	/^void sort_timer_lst::add_timer(util_timer *timer)$/;"	f	class:sort_timer_lst
+add_timer	timer/lst_timer.cpp	/^void sort_timer_lst::add_timer(util_timer *timer, util_timer *lst_head)$/;"	f	class:sort_timer_lst
+addfd	http/http_conn.cpp	/^void addfd(int epollfd, int fd, bool one_shot, int TRIGMode)$/;"	f
+addfd	timer/lst_timer.cpp	/^void Utils::addfd(int epollfd, int fd, bool one_shot, int TRIGMode)$/;"	f	class:Utils
+address	timer/lst_timer.h	/^    sockaddr_in address;$/;"	m	struct:client_data
+addsig	timer/lst_timer.cpp	/^void Utils::addsig(int sig, void(handler)(int), bool restart)$/;"	f	class:Utils
+adjust_timer	timer/lst_timer.cpp	/^void sort_timer_lst::adjust_timer(util_timer *timer)$/;"	f	class:sort_timer_lst
+adjust_timer	webserver.cpp	/^void WebServer::adjust_timer(util_timer *timer)$/;"	f	class:WebServer
+alarm_handler	test_presure/webbench-1.5/webbench.c	/^static void alarm_handler(int signal)$/;"	f	file:
+append	threadpool/threadpool.h	/^bool threadpool<T>::append(T *request, int state)$/;"	f	class:threadpool
+append_p	threadpool/threadpool.h	/^bool threadpool<T>::append_p(T *request)$/;"	f	class:threadpool
+async_write_log	log/log.h	/^    void *async_write_log()$/;"	f	class:Log
+back	log/block_queue.h	/^    bool back(T &value) $/;"	f	class:block_queue
+bench	test_presure/webbench-1.5/webbench.c	/^static int bench(void)$/;"	f	file:
+benchcore	test_presure/webbench-1.5/webbench.c	/^void benchcore(const char *host,const int port,const char *req)$/;"	f
+benchtime	test_presure/webbench-1.5/webbench.c	/^int benchtime=30;$/;"	v
+block_queue	log/block_queue.h	/^    block_queue(int max_size = 1000)$/;"	f	class:block_queue
+block_queue	log/block_queue.h	/^class block_queue$/;"	c
+broadcast	lock/locker.h	/^    bool broadcast()$/;"	f	class:cond
+build_request	test_presure/webbench-1.5/webbench.c	/^void build_request(const char *url)$/;"	f
+bytes	test_presure/webbench-1.5/webbench.c	/^int bytes=0;$/;"	v
+bytes_have_send	http/http_conn.h	/^    int bytes_have_send;$/;"	m	class:http_conn
+bytes_to_send	http/http_conn.h	/^    int bytes_to_send;$/;"	m	class:http_conn
+cb_func	timer/lst_timer.cpp	/^void cb_func(client_data *user_data)$/;"	f
+cb_func	timer/lst_timer.h	/^    void (* cb_func)(client_data *);$/;"	m	class:util_timer
+cgi	http/http_conn.h	/^    int cgi;        \/\/是否启用的POST$/;"	m	class:http_conn
+clear	log/block_queue.h	/^    void clear()$/;"	f	class:block_queue
+client_data	timer/lst_timer.h	/^struct client_data$/;"	s
+clients	test_presure/webbench-1.5/webbench.c	/^int clients=1;$/;"	v
+close_conn	http/http_conn.cpp	/^void http_conn::close_conn(bool real_close)$/;"	f	class:http_conn
+close_log	config.h	/^    int close_log;$/;"	m	class:Config
+conRAII	CGImysql/sql_connection_pool.h	/^	MYSQL *conRAII;$/;"	m	class:connectionRAII
+cond	lock/locker.h	/^    cond()$/;"	f	class:cond
+cond	lock/locker.h	/^class cond$/;"	c
+connList	CGImysql/sql_connection_pool.h	/^	list<MYSQL *> connList; \/\/连接池$/;"	m	class:connection_pool
+connectionRAII	CGImysql/sql_connection_pool.cpp	/^connectionRAII::connectionRAII(MYSQL **SQL, connection_pool *connPool){$/;"	f	class:connectionRAII
+connectionRAII	CGImysql/sql_connection_pool.h	/^class connectionRAII{$/;"	c
+connection_pool	CGImysql/sql_connection_pool.cpp	/^connection_pool::connection_pool()$/;"	f	class:connection_pool
+connection_pool	CGImysql/sql_connection_pool.h	/^class connection_pool$/;"	c
+deal_timer	webserver.cpp	/^void WebServer::deal_timer(util_timer *timer, int sockfd)$/;"	f	class:WebServer
+dealclinetdata	webserver.cpp	/^bool WebServer::dealclinetdata()$/;"	f	class:WebServer
+dealwithread	webserver.cpp	/^void WebServer::dealwithread(int sockfd)$/;"	f	class:WebServer
+dealwithsignal	webserver.cpp	/^bool WebServer::dealwithsignal(bool &timeout, bool &stop_server)$/;"	f	class:WebServer
+dealwithwrite	webserver.cpp	/^void WebServer::dealwithwrite(int sockfd)$/;"	f	class:WebServer
+del_timer	timer/lst_timer.cpp	/^void sort_timer_lst::del_timer(util_timer *timer)$/;"	f	class:sort_timer_lst
+dir_name	log/log.h	/^    char dir_name[128]; \/\/路径名$/;"	m	class:Log
+do_request	http/http_conn.cpp	/^http_conn::HTTP_CODE http_conn::do_request()$/;"	f	class:http_conn
+doc_root	http/http_conn.h	/^    char *doc_root;$/;"	m	class:http_conn
+empty	log/block_queue.h	/^    bool empty() $/;"	f	class:block_queue
+error_400_form	http/http_conn.cpp	/^const char *error_400_form = "Your request has bad syntax or is inherently impossible to staisfy.\\n";$/;"	v
+error_400_title	http/http_conn.cpp	/^const char *error_400_title = "Bad Request";$/;"	v
+error_403_form	http/http_conn.cpp	/^const char *error_403_form = "You do not have permission to get file form this server.\\n";$/;"	v
+error_403_title	http/http_conn.cpp	/^const char *error_403_title = "Forbidden";$/;"	v
+error_404_form	http/http_conn.cpp	/^const char *error_404_form = "The requested file was not found on this server.\\n";$/;"	v
+error_404_title	http/http_conn.cpp	/^const char *error_404_title = "Not Found";$/;"	v
+error_500_form	http/http_conn.cpp	/^const char *error_500_form = "There was an unusual problem serving the request file.\\n";$/;"	v
+error_500_title	http/http_conn.cpp	/^const char *error_500_title = "Internal Error";$/;"	v
+eventListen	webserver.cpp	/^void WebServer::eventListen()$/;"	f	class:WebServer
+eventLoop	webserver.cpp	/^void WebServer::eventLoop()$/;"	f	class:WebServer
+events	webserver.h	/^    epoll_event events[MAX_EVENT_NUMBER];$/;"	m	class:WebServer
+expire	timer/lst_timer.h	/^    time_t expire;$/;"	m	class:util_timer
+failed	test_presure/webbench-1.5/webbench.c	/^int failed=0;$/;"	v
+flush	log/log.cpp	/^void Log::flush(void)$/;"	f	class:Log
+flush_log_thread	log/log.h	/^    static void *flush_log_thread(void *args)$/;"	f	class:Log
+force	test_presure/webbench-1.5/webbench.c	/^int force=0;$/;"	v
+force_reload	test_presure/webbench-1.5/webbench.c	/^int force_reload=0;$/;"	v
+front	log/block_queue.h	/^    bool front(T &value) $/;"	f	class:block_queue
+full	log/block_queue.h	/^    bool full() $/;"	f	class:block_queue
+get	lock/locker.h	/^    pthread_mutex_t *get()$/;"	f	class:locker
+get_address	http/http_conn.h	/^    sockaddr_in *get_address()$/;"	f	class:http_conn
+get_instance	log/log.h	/^    static Log *get_instance()$/;"	f	class:Log
+get_line	http/http_conn.h	/^    char *get_line() { return m_read_buf + m_start_line; };$/;"	f	class:http_conn
+head	timer/lst_timer.h	/^    util_timer *head;$/;"	m	class:sort_timer_lst
+host	test_presure/webbench-1.5/webbench.c	/^char host[MAXHOSTNAMELEN];$/;"	v
+http10	test_presure/webbench-1.5/webbench.c	/^int http10=1; \/* 0 - http\/0.9, 1 - http\/1.0, 2 - http\/1.1 *\/$/;"	v
+http_conn	http/http_conn.h	/^    http_conn() {}$/;"	f	class:http_conn
+http_conn	http/http_conn.h	/^class http_conn$/;"	c
+improv	http/http_conn.h	/^    int improv;$/;"	m	class:http_conn
+init	CGImysql/sql_connection_pool.cpp	/^void connection_pool::init(string url, string User, string PassWord, string DBName, int Port, int MaxConn, int close_log)$/;"	f	class:connection_pool
+init	http/http_conn.cpp	/^void http_conn::init()$/;"	f	class:http_conn
+init	http/http_conn.cpp	/^void http_conn::init(int sockfd, const sockaddr_in &addr, char *root, int TRIGMode,$/;"	f	class:http_conn
+init	log/log.cpp	/^bool Log::init(const char *file_name, int close_log, int log_buf_size, int split_lines, int max_queue_size)$/;"	f	class:Log
+init	timer/lst_timer.cpp	/^void Utils::init(int timeslot)$/;"	f	class:Utils
+init	webserver.cpp	/^void WebServer::init(int port, string user, string passWord, string databaseName, int log_write, $/;"	f	class:WebServer
+initmysql_result	http/http_conn.cpp	/^void http_conn::initmysql_result(connection_pool *connPool)$/;"	f	class:http_conn
+lock	CGImysql/sql_connection_pool.h	/^	locker lock;$/;"	m	class:connection_pool
+lock	lock/locker.h	/^    bool lock()$/;"	f	class:locker
+locker	lock/locker.h	/^    locker()$/;"	f	class:locker
+locker	lock/locker.h	/^class locker$/;"	c
+log_name	log/log.h	/^    char log_name[128]; \/\/log文件名$/;"	m	class:Log
+log_write	webserver.cpp	/^void WebServer::log_write()$/;"	f	class:WebServer
+long_options	test_presure/webbench-1.5/webbench.c	/^static const struct option long_options[]=$/;"	v	typeref:struct:option	file:
+m_CONNTrigmode	webserver.h	/^    int m_CONNTrigmode;$/;"	m	class:WebServer
+m_CurConn	CGImysql/sql_connection_pool.h	/^	int m_CurConn;  \/\/当前已使用的连接数$/;"	m	class:connection_pool
+m_DatabaseName	CGImysql/sql_connection_pool.h	/^	string m_DatabaseName; \/\/使用数据库名$/;"	m	class:connection_pool
+m_FreeConn	CGImysql/sql_connection_pool.h	/^	int m_FreeConn; \/\/当前空闲的连接数$/;"	m	class:connection_pool
+m_LISTENTrigmode	webserver.h	/^    int m_LISTENTrigmode;$/;"	m	class:WebServer
+m_MaxConn	CGImysql/sql_connection_pool.h	/^	int m_MaxConn;  \/\/最大连接数$/;"	m	class:connection_pool
+m_OPT_LINGER	webserver.h	/^    int m_OPT_LINGER;$/;"	m	class:WebServer
+m_PassWord	CGImysql/sql_connection_pool.h	/^	string m_PassWord;	 \/\/登陆数据库密码$/;"	m	class:connection_pool
+m_Port	CGImysql/sql_connection_pool.h	/^	string m_Port;		 \/\/数据库端口号$/;"	m	class:connection_pool
+m_TIMESLOT	timer/lst_timer.h	/^    int m_TIMESLOT;$/;"	m	class:Utils
+m_TRIGMode	http/http_conn.h	/^    int m_TRIGMode;$/;"	m	class:http_conn
+m_TRIGMode	webserver.h	/^    int m_TRIGMode;$/;"	m	class:WebServer
+m_User	CGImysql/sql_connection_pool.h	/^	string m_User;		 \/\/登陆数据库用户名$/;"	m	class:connection_pool
+m_actor_model	threadpool/threadpool.h	/^    int m_actor_model;          \/\/模型切换$/;"	m	class:threadpool
+m_actormodel	webserver.h	/^    int m_actormodel;$/;"	m	class:WebServer
+m_address	http/http_conn.h	/^    sockaddr_in m_address;$/;"	m	class:http_conn
+m_array	log/block_queue.h	/^    T *m_array;$/;"	m	class:block_queue
+m_back	log/block_queue.h	/^    int m_back;$/;"	m	class:block_queue
+m_buf	log/log.h	/^    char *m_buf;$/;"	m	class:Log
+m_check_state	http/http_conn.h	/^    CHECK_STATE m_check_state;$/;"	m	class:http_conn
+m_checked_idx	http/http_conn.h	/^    int m_checked_idx;$/;"	m	class:http_conn
+m_close_log	CGImysql/sql_connection_pool.h	/^	int m_close_log;	\/\/日志开关$/;"	m	class:connection_pool
+m_close_log	http/http_conn.h	/^    int m_close_log;$/;"	m	class:http_conn
+m_close_log	log/log.h	/^    int m_close_log; \/\/关闭日志$/;"	m	class:Log
+m_close_log	webserver.h	/^    int m_close_log;$/;"	m	class:WebServer
+m_cond	lock/locker.h	/^    pthread_cond_t m_cond;$/;"	m	class:cond
+m_cond	log/block_queue.h	/^    cond m_cond;$/;"	m	class:block_queue
+m_connPool	threadpool/threadpool.h	/^    connection_pool *m_connPool;  \/\/数据库$/;"	m	class:threadpool
+m_connPool	webserver.h	/^    connection_pool *m_connPool;$/;"	m	class:WebServer
+m_content_length	http/http_conn.h	/^    int m_content_length;$/;"	m	class:http_conn
+m_count	log/log.h	/^    long long m_count;  \/\/日志行数记录$/;"	m	class:Log
+m_databaseName	webserver.h	/^    string m_databaseName; \/\/使用数据库名$/;"	m	class:WebServer
+m_epollfd	http/http_conn.cpp	/^int http_conn::m_epollfd = -1;$/;"	m	class:http_conn	file:
+m_epollfd	http/http_conn.h	/^    static int m_epollfd;$/;"	m	class:http_conn
+m_epollfd	webserver.h	/^    int m_epollfd;$/;"	m	class:WebServer
+m_file_address	http/http_conn.h	/^    char *m_file_address;$/;"	m	class:http_conn
+m_file_stat	http/http_conn.h	/^    struct stat m_file_stat;$/;"	m	class:http_conn	typeref:struct:http_conn::stat
+m_fp	log/log.h	/^    FILE *m_fp;         \/\/打开log的文件指针$/;"	m	class:Log
+m_front	log/block_queue.h	/^    int m_front;$/;"	m	class:block_queue
+m_host	http/http_conn.h	/^    char *m_host;$/;"	m	class:http_conn
+m_is_async	log/log.h	/^    bool m_is_async;                  \/\/是否同步标志位$/;"	m	class:Log
+m_iv	http/http_conn.h	/^    struct iovec m_iv[2];$/;"	m	class:http_conn	typeref:struct:http_conn::iovec
+m_iv_count	http/http_conn.h	/^    int m_iv_count;$/;"	m	class:http_conn
+m_linger	http/http_conn.h	/^    bool m_linger;$/;"	m	class:http_conn
+m_listenfd	webserver.h	/^    int m_listenfd;$/;"	m	class:WebServer
+m_lock	http/http_conn.cpp	/^locker m_lock;$/;"	v
+m_log_buf_size	log/log.h	/^    int m_log_buf_size; \/\/日志缓冲区大小$/;"	m	class:Log
+m_log_queue	log/log.h	/^    block_queue<string> *m_log_queue; \/\/阻塞队列$/;"	m	class:Log
+m_log_write	webserver.h	/^    int m_log_write;$/;"	m	class:WebServer
+m_max_requests	threadpool/threadpool.h	/^    int m_max_requests;         \/\/请求队列中允许的最大请求数$/;"	m	class:threadpool
+m_max_size	log/block_queue.h	/^    int m_max_size;$/;"	m	class:block_queue
+m_method	http/http_conn.h	/^    METHOD m_method;$/;"	m	class:http_conn
+m_mutex	lock/locker.h	/^    pthread_mutex_t m_mutex;$/;"	m	class:locker
+m_mutex	log/block_queue.h	/^    locker m_mutex;$/;"	m	class:block_queue
+m_mutex	log/log.h	/^    locker m_mutex;$/;"	m	class:Log
+m_passWord	webserver.h	/^    string m_passWord;     \/\/登陆数据库密码$/;"	m	class:WebServer
+m_pipefd	webserver.h	/^    int m_pipefd[2];$/;"	m	class:WebServer
+m_pool	webserver.h	/^    threadpool<http_conn> *m_pool;$/;"	m	class:WebServer
+m_port	webserver.h	/^    int m_port;$/;"	m	class:WebServer
+m_queuelocker	threadpool/threadpool.h	/^    locker m_queuelocker;       \/\/保护请求队列的互斥锁$/;"	m	class:threadpool
+m_queuestat	threadpool/threadpool.h	/^    sem m_queuestat;            \/\/是否有任务需要处理$/;"	m	class:threadpool
+m_read_buf	http/http_conn.h	/^    char m_read_buf[READ_BUFFER_SIZE];$/;"	m	class:http_conn
+m_read_idx	http/http_conn.h	/^    int m_read_idx;$/;"	m	class:http_conn
+m_real_file	http/http_conn.h	/^    char m_real_file[FILENAME_LEN];$/;"	m	class:http_conn
+m_root	webserver.h	/^    char *m_root;$/;"	m	class:WebServer
+m_sem	lock/locker.h	/^    sem_t m_sem;$/;"	m	class:sem
+m_size	log/block_queue.h	/^    int m_size;$/;"	m	class:block_queue
+m_sockfd	http/http_conn.h	/^    int m_sockfd;$/;"	m	class:http_conn
+m_split_lines	log/log.h	/^    int m_split_lines;  \/\/日志最大行数$/;"	m	class:Log
+m_sql_num	webserver.h	/^    int m_sql_num;$/;"	m	class:WebServer
+m_start_line	http/http_conn.h	/^    int m_start_line;$/;"	m	class:http_conn
+m_state	http/http_conn.h	/^    int m_state;  \/\/读为0, 写为1$/;"	m	class:http_conn
+m_string	http/http_conn.h	/^    char *m_string; \/\/存储请求头数据$/;"	m	class:http_conn
+m_thread_num	webserver.h	/^    int m_thread_num;$/;"	m	class:WebServer
+m_thread_number	threadpool/threadpool.h	/^    int m_thread_number;        \/\/线程池中的线程数$/;"	m	class:threadpool
+m_threads	threadpool/threadpool.h	/^    pthread_t *m_threads;       \/\/描述线程池的数组，其大小为m_thread_number$/;"	m	class:threadpool
+m_timer_lst	timer/lst_timer.h	/^    sort_timer_lst m_timer_lst;$/;"	m	class:Utils
+m_today	log/log.h	/^    int m_today;        \/\/因为按天分类,记录当前时间是那一天$/;"	m	class:Log
+m_url	CGImysql/sql_connection_pool.h	/^	string m_url;			 \/\/主机地址$/;"	m	class:connection_pool
+m_url	http/http_conn.h	/^    char *m_url;$/;"	m	class:http_conn
+m_user	webserver.h	/^    string m_user;         \/\/登陆数据库用户名$/;"	m	class:WebServer
+m_user_count	http/http_conn.cpp	/^int http_conn::m_user_count = 0;$/;"	m	class:http_conn	file:
+m_user_count	http/http_conn.h	/^    static int m_user_count;$/;"	m	class:http_conn
+m_users	http/http_conn.h	/^    map<string, string> m_users;$/;"	m	class:http_conn
+m_version	http/http_conn.h	/^    char *m_version;$/;"	m	class:http_conn
+m_workqueue	threadpool/threadpool.h	/^    std::list<T *> m_workqueue; \/\/请求队列$/;"	m	class:threadpool
+m_write_buf	http/http_conn.h	/^    char m_write_buf[WRITE_BUFFER_SIZE];$/;"	m	class:http_conn
+m_write_idx	http/http_conn.h	/^    int m_write_idx;$/;"	m	class:http_conn
+main	main.cpp	/^int main(int argc, char *argv[])$/;"	f
+main	test.cpp	/^int main(int argc,char*argv[]){$/;"	f
+main	test_presure/webbench-1.5/webbench.c	/^int main(int argc, char *argv[])$/;"	f
+max_size	log/block_queue.h	/^    int max_size()$/;"	f	class:block_queue
+method	test_presure/webbench-1.5/webbench.c	/^int method=METHOD_GET;$/;"	v
+modfd	http/http_conn.cpp	/^void modfd(int epollfd, int fd, int ev, int TRIGMode)$/;"	f
+mypipe	test_presure/webbench-1.5/webbench.c	/^int mypipe[2];$/;"	v
+mysql	http/http_conn.h	/^    MYSQL *mysql;$/;"	m	class:http_conn
+next	timer/lst_timer.h	/^    util_timer *next;$/;"	m	class:util_timer
+ok_200_title	http/http_conn.cpp	/^const char *ok_200_title = "OK";$/;"	v
+parse_arg	config.cpp	/^void Config::parse_arg(int argc, char*argv[]){$/;"	f	class:Config
+parse_content	http/http_conn.cpp	/^http_conn::HTTP_CODE http_conn::parse_content(char *text)$/;"	f	class:http_conn
+parse_headers	http/http_conn.cpp	/^http_conn::HTTP_CODE http_conn::parse_headers(char *text)$/;"	f	class:http_conn
+parse_line	http/http_conn.cpp	/^http_conn::LINE_STATUS http_conn::parse_line()$/;"	f	class:http_conn
+parse_request_line	http/http_conn.cpp	/^http_conn::HTTP_CODE http_conn::parse_request_line(char *text)$/;"	f	class:http_conn
+poolRAII	CGImysql/sql_connection_pool.h	/^	connection_pool *poolRAII;$/;"	m	class:connectionRAII
+pop	log/block_queue.h	/^    bool pop(T &item)$/;"	f	class:block_queue
+pop	log/block_queue.h	/^    bool pop(T &item, int ms_timeout)$/;"	f	class:block_queue
+post	lock/locker.h	/^    bool post()$/;"	f	class:sem
+prev	timer/lst_timer.h	/^    util_timer *prev;$/;"	m	class:util_timer
+process	http/http_conn.cpp	/^void http_conn::process()$/;"	f	class:http_conn
+process_read	http/http_conn.cpp	/^http_conn::HTTP_CODE http_conn::process_read()$/;"	f	class:http_conn
+process_write	http/http_conn.cpp	/^bool http_conn::process_write(HTTP_CODE ret)$/;"	f	class:http_conn
+proxyhost	test_presure/webbench-1.5/webbench.c	/^char *proxyhost=NULL;$/;"	v
+proxyport	test_presure/webbench-1.5/webbench.c	/^int proxyport=80;$/;"	v
+push	log/block_queue.h	/^    bool push(const T &item)$/;"	f	class:block_queue
+read_once	http/http_conn.cpp	/^bool http_conn::read_once()$/;"	f	class:http_conn
+removefd	http/http_conn.cpp	/^void removefd(int epollfd, int fd)$/;"	f
+request	test_presure/webbench-1.5/webbench.c	/^char request[REQUEST_SIZE];$/;"	v
+reserve	CGImysql/sql_connection_pool.h	/^	sem reserve;$/;"	m	class:connection_pool
+run	threadpool/threadpool.h	/^void threadpool<T>::run()$/;"	f	class:threadpool
+sem	lock/locker.h	/^    sem()$/;"	f	class:sem
+sem	lock/locker.h	/^    sem(int num)$/;"	f	class:sem
+sem	lock/locker.h	/^class sem$/;"	c
+setnonblocking	http/http_conn.cpp	/^int setnonblocking(int fd)$/;"	f
+setnonblocking	timer/lst_timer.cpp	/^int Utils::setnonblocking(int fd)$/;"	f	class:Utils
+show_error	timer/lst_timer.cpp	/^void Utils::show_error(int connfd, const char *info)$/;"	f	class:Utils
+sig_handler	timer/lst_timer.cpp	/^void Utils::sig_handler(int sig)$/;"	f	class:Utils
+signal	lock/locker.h	/^    bool signal()$/;"	f	class:cond
+size	log/block_queue.h	/^    int size() $/;"	f	class:block_queue
+sockfd	timer/lst_timer.h	/^    int sockfd;$/;"	m	struct:client_data
+sort_timer_lst	timer/lst_timer.cpp	/^sort_timer_lst::sort_timer_lst()$/;"	f	class:sort_timer_lst
+sort_timer_lst	timer/lst_timer.h	/^class sort_timer_lst$/;"	c
+speed	test_presure/webbench-1.5/webbench.c	/^int speed=0;$/;"	v
+sql_name	http/http_conn.h	/^    char sql_name[100];$/;"	m	class:http_conn
+sql_num	config.h	/^    int sql_num;$/;"	m	class:Config
+sql_passwd	http/http_conn.h	/^    char sql_passwd[100];$/;"	m	class:http_conn
+sql_pool	webserver.cpp	/^void WebServer::sql_pool()$/;"	f	class:WebServer
+sql_user	http/http_conn.h	/^    char sql_user[100];$/;"	m	class:http_conn
+tail	timer/lst_timer.h	/^    util_timer *tail;$/;"	m	class:sort_timer_lst
+thread_num	config.h	/^    int thread_num;$/;"	m	class:Config
+thread_pool	webserver.cpp	/^void WebServer::thread_pool()$/;"	f	class:WebServer
+threadpool	threadpool/threadpool.h	/^class threadpool$/;"	c
+threadpool	threadpool/threadpool.h	/^threadpool<T>::threadpool( int actor_model, connection_pool *connPool, int thread_number, int max_requests) : m_actor_model(actor_model),m_thread_number(thread_number), m_max_requests(max_requests), m_threads(NULL),m_connPool(connPool)$/;"	f	class:threadpool
+tick	timer/lst_timer.cpp	/^void sort_timer_lst::tick()$/;"	f	class:sort_timer_lst
+timer	timer/lst_timer.h	/^    util_timer *timer;$/;"	m	struct:client_data
+timer	webserver.cpp	/^void WebServer::timer(int connfd, struct sockaddr_in client_address)$/;"	f	class:WebServer
+timer_flag	http/http_conn.h	/^    int timer_flag;$/;"	m	class:http_conn
+timer_handler	timer/lst_timer.cpp	/^void Utils::timer_handler()$/;"	f	class:Utils
+timerexpired	test_presure/webbench-1.5/webbench.c	/^volatile int timerexpired=0;$/;"	v
+timewait	lock/locker.h	/^    bool timewait(pthread_mutex_t *m_mutex, struct timespec t)$/;"	f	class:cond
+trig_mode	webserver.cpp	/^void WebServer::trig_mode()$/;"	f	class:WebServer
+u_epollfd	timer/lst_timer.cpp	/^int Utils::u_epollfd = 0;$/;"	m	class:Utils	file:
+u_epollfd	timer/lst_timer.h	/^    static int u_epollfd;$/;"	m	class:Utils
+u_pipefd	timer/lst_timer.cpp	/^int *Utils::u_pipefd = 0;$/;"	m	class:Utils	file:
+u_pipefd	timer/lst_timer.h	/^    static int *u_pipefd;$/;"	m	class:Utils
+unlock	lock/locker.h	/^    bool unlock()$/;"	f	class:locker
+unmap	http/http_conn.cpp	/^void http_conn::unmap()$/;"	f	class:http_conn
+usage	test_presure/webbench-1.5/webbench.c	/^static void usage(void)$/;"	f	file:
+user_data	timer/lst_timer.h	/^    client_data *user_data;$/;"	m	class:util_timer
+users	http/http_conn.cpp	/^map<string, string> users;$/;"	v
+users	webserver.h	/^    http_conn *users;$/;"	m	class:WebServer
+users_timer	webserver.h	/^    client_data *users_timer;$/;"	m	class:WebServer
+util_timer	timer/lst_timer.h	/^    util_timer() : prev(NULL), next(NULL) {}$/;"	f	class:util_timer
+util_timer	timer/lst_timer.h	/^class util_timer$/;"	c
+utils	webserver.h	/^    Utils utils;$/;"	m	class:WebServer
+wait	lock/locker.h	/^    bool wait()$/;"	f	class:sem
+wait	lock/locker.h	/^    bool wait(pthread_mutex_t *m_mutex)$/;"	f	class:cond
+worker	threadpool/threadpool.h	/^void *threadpool<T>::worker(void *arg)$/;"	f	class:threadpool
+write	http/http_conn.cpp	/^bool http_conn::write()$/;"	f	class:http_conn
+write_log	log/log.cpp	/^void Log::write_log(int level, const char *format, ...)$/;"	f	class:Log
+~Config	config.h	/^    ~Config(){};$/;"	f	class:Config
+~Log	log/log.cpp	/^Log::~Log()$/;"	f	class:Log
+~Utils	timer/lst_timer.h	/^    ~Utils() {}$/;"	f	class:Utils
+~WebServer	webserver.cpp	/^WebServer::~WebServer()$/;"	f	class:WebServer
+~block_queue	log/block_queue.h	/^    ~block_queue()$/;"	f	class:block_queue
+~cond	lock/locker.h	/^    ~cond()$/;"	f	class:cond
+~connectionRAII	CGImysql/sql_connection_pool.cpp	/^connectionRAII::~connectionRAII(){$/;"	f	class:connectionRAII
+~connection_pool	CGImysql/sql_connection_pool.cpp	/^connection_pool::~connection_pool()$/;"	f	class:connection_pool
+~http_conn	http/http_conn.h	/^    ~http_conn() {}$/;"	f	class:http_conn
+~locker	lock/locker.h	/^    ~locker()$/;"	f	class:locker
+~sem	lock/locker.h	/^    ~sem()$/;"	f	class:sem
+~sort_timer_lst	timer/lst_timer.cpp	/^sort_timer_lst::~sort_timer_lst()$/;"	f	class:sort_timer_lst
+~threadpool	threadpool/threadpool.h	/^threadpool<T>::~threadpool()$/;"	f	class:threadpool
